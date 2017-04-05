@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="gMK-2b-zve" customClass="ViewHeaderProfile" customModule="LinkAPI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWX-fE-eCc">
+                    <rect key="frame" x="346" y="10" width="24" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="oG4-Z7-3ZP"/>
+                        <constraint firstAttribute="width" constant="24" id="x9D-el-wFV"/>
+                    </constraints>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" image="ic_settings"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENH-Rt-hwk">
+                    <rect key="frame" x="5" y="10" width="28" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="EjJ-CI-pLr"/>
+                        <constraint firstAttribute="width" constant="28" id="cK0-zn-69U"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Back" image="ic_settings_white"/>
+                    <connections>
+                        <action selector="backBtn:" destination="gMK-2b-zve" eventType="touchUpInside" id="2UE-u7-qLS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ECr-iW-QzE" customClass="AnimatableButton" customModule="IBAnimatable">
+                    <rect key="frame" x="52" y="0.0" width="275" height="46"/>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="14"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="shubham dhingra" image="ic_search_white"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="_borderSides" value="bottom"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="dWX-fE-eCc" firstAttribute="leading" secondItem="ECr-iW-QzE" secondAttribute="trailing" constant="19" id="4BJ-xd-3RC"/>
+                <constraint firstAttribute="trailing" secondItem="dWX-fE-eCc" secondAttribute="trailing" constant="5" id="91f-hJ-h9e"/>
+                <constraint firstItem="ECr-iW-QzE" firstAttribute="leading" secondItem="ENH-Rt-hwk" secondAttribute="trailing" constant="19" id="ElS-B6-YoP"/>
+                <constraint firstItem="ENH-Rt-hwk" firstAttribute="leading" secondItem="gMK-2b-zve" secondAttribute="leading" constant="5" id="Qmn-nz-gfD"/>
+                <constraint firstItem="ENH-Rt-hwk" firstAttribute="top" secondItem="gMK-2b-zve" secondAttribute="top" constant="10" id="bTM-jK-Sr1"/>
+                <constraint firstItem="ECr-iW-QzE" firstAttribute="top" secondItem="gMK-2b-zve" secondAttribute="top" id="dA8-nD-jFd"/>
+                <constraint firstItem="dWX-fE-eCc" firstAttribute="top" secondItem="gMK-2b-zve" secondAttribute="top" constant="10" id="ySg-Sn-3sJ"/>
+                <constraint firstAttribute="bottom" secondItem="ECr-iW-QzE" secondAttribute="bottom" id="zQm-0J-MC2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="24.5" y="350"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_search_white" width="24" height="24"/>
+        <image name="ic_settings" width="24" height="24"/>
+        <image name="ic_settings_white" width="24" height="24"/>
+    </resources>
+</document>

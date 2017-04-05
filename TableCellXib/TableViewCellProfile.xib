@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Profile" rowHeight="230" id="X15-rd-1xN" customClass="TableViewCellProfile" customModule="LinkAPI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="381" height="230"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="X15-rd-1xN" id="qFN-qX-kiQ">
+                <rect key="frame" x="0.0" y="0.0" width="381" height="229"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Af6-cv-gOl" customClass="AnimatableButton" customModule="IBAnimatable">
+                        <rect key="frame" x="12" y="58" width="357" height="160"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-17" translatesAutoresizingMaskIntoConstraints="NO" id="g4S-GY-X2F">
+                                <rect key="frame" x="29" y="54" width="299" height="98"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shubham Dhingra" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAq-t1-Aol">
+                                        <rect key="frame" x="0.0" y="0.0" width="299" height="37.5"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="19"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Software Developer at CodeBrew Labs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tch-ig-WFA">
+                                        <rect key="frame" x="0.0" y="20.5" width="299" height="37"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jaypee University of Engineering &amp; Technology" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTZ-ao-ZMs">
+                                        <rect key="frame" x="0.0" y="40.5" width="299" height="37.5"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                        <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agra Area,India" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkU-i6-X70">
+                                        <rect key="frame" x="0.0" y="61" width="299" height="37"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="299" id="IdL-Sn-qxF"/>
+                                    <constraint firstAttribute="height" constant="98" id="rqX-p6-n7o"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgr-5g-Xkr">
+                                <rect key="frame" x="319" y="8" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="v3g-Jd-EbQ"/>
+                                    <constraint firstAttribute="width" constant="30" id="zPK-Bt-Br7"/>
+                                </constraints>
+                                <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="ic_mode_edit_white"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="g4S-GY-X2F" secondAttribute="bottom" constant="8" id="0Ai-EM-1oD"/>
+                            <constraint firstAttribute="trailing" secondItem="mgr-5g-Xkr" secondAttribute="trailing" constant="8" id="RGy-6k-YhZ"/>
+                            <constraint firstItem="g4S-GY-X2F" firstAttribute="centerX" secondItem="Af6-cv-gOl" secondAttribute="centerX" id="UX7-Ed-dii"/>
+                            <constraint firstItem="mgr-5g-Xkr" firstAttribute="top" secondItem="Af6-cv-gOl" secondAttribute="top" constant="8" id="Xmu-4b-wW7"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="7"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                <point key="value" x="1" y="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cutie pie" translatesAutoresizingMaskIntoConstraints="NO" id="9f2-nC-u0A">
+                        <rect key="frame" x="141" y="8" width="100" height="100"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="1yW-gu-p4k"/>
+                            <constraint firstAttribute="width" constant="100" id="ETP-81-LBA"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                <point key="value" x="1" y="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Af6-cv-gOl" secondAttribute="trailing" constant="12" id="3Hy-f5-7dx"/>
+                    <constraint firstAttribute="bottom" secondItem="Af6-cv-gOl" secondAttribute="bottom" constant="12" id="EzC-66-8vG"/>
+                    <constraint firstItem="Af6-cv-gOl" firstAttribute="leading" secondItem="qFN-qX-kiQ" secondAttribute="leading" constant="12" id="Lkc-Fz-gEM"/>
+                    <constraint firstItem="Af6-cv-gOl" firstAttribute="height" secondItem="qFN-qX-kiQ" secondAttribute="height" multiplier="0.7" id="M4b-ht-eBB"/>
+                    <constraint firstItem="9f2-nC-u0A" firstAttribute="centerX" secondItem="qFN-qX-kiQ" secondAttribute="centerX" id="PEW-jB-ZOl"/>
+                    <constraint firstItem="9f2-nC-u0A" firstAttribute="top" secondItem="qFN-qX-kiQ" secondAttribute="top" constant="8" id="c6s-xY-MNS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="lblName" destination="bAq-t1-Aol" id="g7W-Wa-WPG"/>
+                <outlet property="prfImg" destination="9f2-nC-u0A" id="zXt-Cz-HH4"/>
+            </connections>
+            <point key="canvasLocation" x="-7" y="-122"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cutie pie" width="1680" height="1050"/>
+        <image name="ic_mode_edit_white" width="24" height="24"/>
+    </resources>
+</document>
